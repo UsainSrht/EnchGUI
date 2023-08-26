@@ -1,0 +1,6 @@
+name: EnchGUI
+version: '${project.version}'
+main: me.usainsrht.enchgui.EnchGUI
+api-version: '1.13'
+authors: [UsainSrht]
+description: Vanilla enchanting system enhanced with GUI.
