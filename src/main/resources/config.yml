@@ -1,0 +1,26 @@
+prefix: "<gradient:#002EFF:#00A2FF:#002EFF>EnchGUI <separator> "
+separator: "<dark_gray>»"
+money_symbol: "$"
+
+gui_title:
+  select_tool: "<gradient:#002EFF:#00A2FF:#002EFF>Select Tool"
+  select_ench: "<gradient:#002EFF:#00A2FF:#002EFF>Select Enchantment"
+  select_level: "<gradient:#002EFF:#00A2FF:#002EFF>Select Level"
+
+messages:
+  help:
+   - "<blue>/enchgui - Opens the GUI."
+   - "<blue>/enchgui reload - Reloads the config."
+
+sounds:
+  help:
+    name: "ui.button.click"
+
+command:
+  name: "enchgui"
+  description: "command to open gui and reload the config"
+  usage: "/enchgui [<reload>]"
+  permission: "enchgui.use"
+  aliases:
+    - egui
+    - enchantmentgui

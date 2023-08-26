@@ -4,14 +4,35 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class EnchGUI extends JavaPlugin {
 
+    private static EnchGUI instance;
+
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        instance = this;
+
+        loadConfig();
+
 
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+
+    }
+
+    public static EnchGUI getInstance() {
+        return instance;
+    }
+
+    public void reload() {
+        reloadConfig();
+
+        loadConfig();
+    }
+
+    public void loadConfig() {
+        saveDefaultConfig();
+
+
     }
 }
